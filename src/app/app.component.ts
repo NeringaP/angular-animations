@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'animations';
+
+  list = ['Milk', 'Sugar', 'Bread'];
+
+  onAdd(item) {
+    this.list.push(item);
+  }
+
 }
